@@ -1,10 +1,12 @@
+import sql.Conexion;
 
 public class Pruebas {
-
+	
+	Conexion conexion = new Conexion();
+	
 	public static void main(String[] args) {
-		// TODO Auto-generated method stub
-		// Esto es otro comentario
-		// Esto es la prueba 2
+			
+	
 	}
 
 }
