@@ -6,9 +6,11 @@ import java.sql.SQLException;
 
 public class Conexion {
 	
-	final static String host = "192.168.1.99";
-	final static String user = "asymmetry";
+	final static String host = "jdbc:mysql://asymmetrystudio.com";
+	final static String user = "asymmetr_web";
 	final static String password = "53491221";
+	final static String base = "asymmetr_pruebas";
+	Connection con;
 		
 	public Conexion(){
 		
@@ -24,15 +26,10 @@ public class Conexion {
 				
 	}
 	
-	public String getNombres(String nombre){
+	public void getNombres(){
 		
-				
-		
-		return nombre;
-
+		System.out.println(con);
 	
 	}
-
-
 
 }
