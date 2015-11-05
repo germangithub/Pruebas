@@ -1,6 +1,6 @@
 import sql.Conexion;
 
-public class Pruebas {
+public class PruebasSQL {
 	
 	Conexion conexion = new Conexion();
 	
