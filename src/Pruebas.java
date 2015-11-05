@@ -4,6 +4,7 @@ public class Pruebas {
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
 		// Esto es otro comentario
+		// Esto es la prueba 2
 	}
 
 }
