@@ -6,7 +6,7 @@ public class PruebasSQL {
 	
 	public static void main(String[] args) {
 			
-		conexion.getNombres();
+		
 		
 	}
 
